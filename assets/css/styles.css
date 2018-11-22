@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Light.eot');
+    src: url('../fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-Light.woff2') format('woff2'),
+        url('../fonts/FuturaPT-Light.woff') format('woff'),
+        url('../fonts/FuturaPT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Bold.eot');
+    src: url('../fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-Bold.woff2') format('woff2'),
+        url('../fonts/FuturaPT-Bold.woff') format('woff'),
+        url('../fonts/FuturaPT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Funkturm';
+    src: url('../fonts/Funkturm.eot');
+    src: url('../fonts/Funkturm.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Funkturm.woff') format('woff'),
+        url('../fonts/Funkturm.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Futura PT';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+}
+
+b{
+    font-weight: bold;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Funkturm';
+    font-weight: 500;
+}
+
+.section1{
+    background: url('../../img/section1.jpg') no-repeat center center;
+}
+
+.title-primary{
+    font-size: 73px;
+    font-weight: bold;
+}
+
+.section1 h1{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+
+.section-left-1{
+    background-color: #F8D9D3;
+    padding: 20px 70px;
+}
+
+.section-right-1{
+    padding: 30px 70px;
+}
+
+.section-left-2{
+    background-color: #E2F3FF;
+    padding: 70px 70px;
+}
+
+.section-right-2{
+    padding: 30px 70px;
+}
+
+.section-left-3{
+    background-color: #FCFFEF;
+    padding: 70px 70px;
+}
+
+.section-right-3{
+    padding: 30px 70px;
+}
+
+.img-leftd{
+    background: #fff;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.info{
+    font-size: 15px;
+}
+
+.img-music{
+    width: 75%;
+    margin: auto;
+}
+
+.img-rec{
+    width: 68%;
+    margin: auto;
+}
+
+.section-foo{
+    background: #FFF4F0;
+    background: url('../../img/foo.png') bottom center no-repeat;
+    background-size: cover;
+}
+
+.section-foo .content {
+    width: 75%;
+    margin: auto;
+}
+
+.btn-buy{
+    background: #fff;
+    color: #F1592D;
+    font-size: 24px;
+    font-family: 'Funkturm';
+    font-weight: 500;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    -webkit-box-shadow: -3px 22px 20px 3px rgba(242,114,119,0.2);
+    -moz-box-shadow: -3px 22px 20px 3px rgba(242,114,119,0.2);
+    box-shadow: -3px 22px 20px 3px rgba(242,114,119,0.2);
+}
+
+.btn-buy:hover{
+    color: #F1592D;
+    -webkit-box-shadow: -3px 22px 20px -7px rgba(242,114,119,0.2);
+    -moz-box-shadow: -3px 22px 20px -7px rgba(242,114,119,0.2);
+    box-shadow: -3px 22px 20px -7px rgba(242,114,119,0.2);
+}
+
+
+.fp-tableCell{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
